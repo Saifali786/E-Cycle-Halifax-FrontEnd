@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  border: 0;
+}
+.mb-4 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mobile-style {
+  width: 35rem;
+  border-radius: 12px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-style {
+    width: 80%;
+    margin-right: 40px;
+    border-radius: 7px;
+  }
+}
+.signup-message {
+  font-size: 25px;
+  margin-left: 4rem;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .signup-message {
+    font-size: 18px;
+    margin-left: 2rem;
+    margin-top: 10px;
+  }
+}
